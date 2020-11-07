@@ -1,1 +1,1 @@
-hooks-countdown-timers
+Countdown timers using hooks

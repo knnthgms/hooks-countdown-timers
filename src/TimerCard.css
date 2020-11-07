@@ -1,0 +1,35 @@
+.card {
+  font-family: sans-serif;
+  border: 1px solid grey;
+  border-top: none;
+  padding: 5px;
+}
+.card:first-child {
+  border-radius: 5px 5px 0 0;
+  border-top: 1px solid grey;
+}
+.card:last-child {
+  border-radius: 0 0 5px 5px;
+  border-top: none;
+}
+.timer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.timer-title-date {
+  display: inherit;
+  flex-direction: column;
+}
+.timer-title {
+  font-size: 1.2em;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+.timer-date {
+  font-size: 0.9em;
+  font-weight: 200;
+}
+.timer-text {
+  /* font-size: 2em; */
+}
