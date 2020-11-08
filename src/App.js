@@ -19,8 +19,9 @@ function App() {
     },
     { title: "28th", date: "2021-10-04" },
   ];
+
   const [descSortOrder, setSortOrder] = useState(true);
-  const [dayCounter, setDayCounter] = useState(false);
+  // const [dayCounter, setDayCounter] = useState(false);
   return (
     <div className="layout">
       <Header />
@@ -59,7 +60,7 @@ function App() {
                 <TimerCard
                   countdownDate={e.date}
                   countdownTitle={e.title}
-                  shortDate={dayCounter}
+                  // shortDate={dayCounter}
                   key={e.date}
                 />
               ))}
